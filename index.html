@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuzx-233的个人主页</title>
+    <style>
+        /* 重置默认边距，确保全屏显示 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000; /* 纯黑背景 */
+        }
+
+        /* 使用Flexbox实现绝对居中 */
+        .container {
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;     /* 垂直居中 */
+            height: 100vh;           /* 占满视口高度 */
+            width: 100vw;            /* 占满视口宽度 */
+        }
+
+        /* 文字样式设置 */
+        .text-content {
+            color: #ffffff;          /* 纯白文字，与黑色背景形成高对比 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 2rem;         /* 适中字号，可根据需求调整 */
+            font-weight: 300;        /* 细字体，显得更现代优雅 */
+            letter-spacing: 2px;     /* 增加字间距，提升可读性 */
+            text-align: center;      /* 确保多行时也是居中对齐 */
+            user-select: none;       /* 禁止选中文字，保持界面整洁感（可选） */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 这里修改你想要显示的文字 -->
+        <h1 class="text-content">Hello World</h1>
+    </div>
+</body>
+</html>
